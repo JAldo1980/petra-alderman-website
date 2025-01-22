@@ -4,7 +4,7 @@ import Container from "./Container";
 
 const Nav = () => {
   return (
-    <div className="bg-bg-1">
+    <div className="bg-bg-1 pt-4">
       <Container>
         <div className="flex justify-between">
           <h3>

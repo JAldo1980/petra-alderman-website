@@ -3,7 +3,7 @@ import React from "react";
 const Publications = () => {
   return (
     <>
-      <h2>Publications</h2>;
+      <h2>Publications</h2>
     </>
   );
 };

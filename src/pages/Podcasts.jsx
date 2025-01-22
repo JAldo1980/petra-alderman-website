@@ -3,7 +3,7 @@ import React from "react";
 const Podcasts = () => {
   return (
     <>
-      <h2>Podcasts</h2>;
+      <h2>Podcasts</h2>
     </>
   );
 };
