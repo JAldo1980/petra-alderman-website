@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bg-1": "#fbe8b0", // background 1
+        "bg-2": "#334f59", // background 2
+        "headline-1": "#ffa100", // headline color 1
+        "headline-2": "#33515c", // headline color 2
+        "text-blue": "#abe0e6", // text blue
+        "text-dark": "#304f5c", // text dark
+        "button-blue": "#b1dfe4", // button blue
+      },
+    },
   },
   plugins: [],
 };
