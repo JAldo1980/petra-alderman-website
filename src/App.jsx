@@ -1,7 +1,7 @@
+// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./index.css";
-
 import Nav from "./components/Nav";
 import About from "./pages/About";
 import Research from "./pages/Research";
@@ -11,6 +11,7 @@ import Podcasts from "./pages/Podcasts";
 import Media from "./pages/Media";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <div>
         <Nav />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/research" element={<Research />} />
           <Route path="/publications" element={<Publications />} />

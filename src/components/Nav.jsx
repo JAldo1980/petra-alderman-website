@@ -7,13 +7,13 @@ const Nav = () => {
     <div className="bg-bg-1 pt-4">
       <Container>
         <div className="flex justify-between">
-          <h3>
-            Petra <span className="text-gray-400">Alderman</span>
-          </h3>
+          <a href="/">
+            <h3>
+              Petra <span className="text-gray-400">Alderman</span>
+            </h3>
+          </a>
+
           <div className="flex justify-between gap-2 flex-wrap">
-            <Link to="/" className="cursor-pointer">
-              Home
-            </Link>
             <Link to="/about" className="cursor-pointer">
               About
             </Link>
