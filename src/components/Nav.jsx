@@ -8,8 +8,8 @@ const Nav = () => {
       <Container>
         <div className="flex justify-between">
           <a href="/">
-            <h3>
-              Petra <span className="text-gray-400">Alderman</span>
+            <h3 className="uppercase font-bold text-text-orange text-2xl">
+              Petra <span className="text-text-dark">Alderman</span>
             </h3>
           </a>
 
