@@ -1,9 +1,15 @@
 // src/pages/Home.jsx
 import React from "react";
 import ImageAside from "../components/ImageAside";
+import ImagesBelow from "../components/ImagesBelow";
 import Container from "../components/Container";
 
 const Home = () => {
+  const researchImages = [
+    "path/to/your/image1.jpg",
+    "path/to/your/image2.jpg",
+    "path/to/your/image3.jpg",
+  ];
   return (
     <>
       <div className="bg-bg-1 py-8">
@@ -87,6 +93,22 @@ const Home = () => {
               (TS4).
             </p>
           </ImageAside>
+        </Container>
+      </div>
+      <div className="bg-bg-2 py-8">
+        <Container>
+          <ImagesBelow
+            title="Research"
+            description="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
+            images={researchImages}
+            buttonText="Explore"
+            imageClassName="w-2/3"
+            contentClassName="mb-4"
+          >
+            <p className="text-base">
+              This is some custom content for the component.
+            </p>
+          </ImagesBelow>
         </Container>
       </div>
     </>
