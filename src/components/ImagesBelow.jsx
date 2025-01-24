@@ -4,13 +4,12 @@ const ImagesBelow = ({
   title,
   description,
   images,
-  buttonText,
   imageClassName,
   contentClassName,
   children,
 }) => {
   return (
-    <div className="images-below p-5 text-center">
+    <div className="images-below">
       <h1 className="text-2xl font-bold mb-4">{title}</h1>
       <p className="text-base mb-6">{description}</p>
       <div className={`aside-content ${contentClassName}`}>{children}</div>
@@ -24,11 +23,7 @@ const ImagesBelow = ({
           </div>
         ))}
       </div>
-      <div className="mt-6">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-full">
-          {buttonText}
-        </button>
-      </div>
+      <div className="mt-6"></div>
     </div>
   );
 };

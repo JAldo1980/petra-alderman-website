@@ -101,14 +101,12 @@ const Home = () => {
             title="Research"
             description="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
             images={researchImages}
-            buttonText="Explore"
             imageClassName="w-2/3"
             contentClassName="mb-4"
-          >
-            <p className="text-base">
-              This is some custom content for the component.
-            </p>
-          </ImagesBelow>
+          ></ImagesBelow>
+          <button className="bg-button-blue py-1.5 px-5 rounded-full ">
+            Explore
+          </button>
         </Container>
       </div>
     </>
