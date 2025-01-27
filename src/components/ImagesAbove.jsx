@@ -22,7 +22,7 @@ const ImagesAbove = ({
             <img
               src={image.imageSrc}
               alt={`Image ${index + 1}`}
-              className="w-full max-w-[200px] rounded-lg shadow-md p-2"
+              className="w-full max-w-[200px] rounded-lg cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out"
             />
             <div className="mt-6">
               <p className="text-start text-text-dark my-4">

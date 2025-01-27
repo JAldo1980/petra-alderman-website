@@ -79,7 +79,7 @@ const Home = () => {
                 Available in hardback, paperback and ebook.
               </p>
               <div>
-                <button className="bg-button-blue py-1.5 px-5 rounded-full ">
+                <button className="bg-button-blue py-1.5 px-5 rounded-full drop-shadow-md hover:drop-shadow-sm">
                   Explore
                 </button>
               </div>
@@ -133,7 +133,7 @@ const Home = () => {
             imageClassName=""
             contentClassName="mb-4"
           ></ImagesBelow>
-          <button className="bg-button-blue py-1.5 px-5 rounded-full mt-6">
+          <button className="bg-button-blue py-1.5 px-5 rounded-full mt-6 drop-shadow-md hover:drop-shadow-sm">
             Explore
           </button>
         </Container>
@@ -172,6 +172,11 @@ const Home = () => {
             imageClassName=""
             contentClassName="mb-4"
           />
+          <div>
+            <button className="bg-button-blue py-1.5 px-5 rounded-full mt-4 drop-shadow-md hover:drop-shadow-sm">
+              Explore all publications
+            </button>
+          </div>
         </div>
       </Container>
     </>

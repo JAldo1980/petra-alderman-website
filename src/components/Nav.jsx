@@ -14,31 +14,26 @@ const Nav = () => {
             </h3>
           </a>
 
-          <div className="flex justify-between gap-2 flex-wrap">
-            <Link to="/about" className="cursor-pointer">
-              About
-            </Link>
-            <Link to="/research" className="cursor-pointer">
-              Research
-            </Link>
-            <Link to="/publications" className="cursor-pointer">
-              Publications
-            </Link>
-            <Link to="/teaching" className="cursor-pointer">
-              Teaching
-            </Link>
-            <Link to="/podcasts" className="cursor-pointer">
-              Podcasts
-            </Link>
-            <Link to="/media" className="cursor-pointer">
-              Media
-            </Link>
-            <Link to="/events" className="cursor-pointer">
-              Events
-            </Link>
-            <Link to="/contact" className="cursor-pointer">
-              Contact
-            </Link>
+          <div className="flex justify-between text-text-dark gap-4 flex-wrap">
+            {[
+              { to: "/about", label: "About" },
+              { to: "/research", label: "Research" },
+              { to: "/publications", label: "Publications" },
+              { to: "/teaching", label: "Teaching" },
+              { to: "/podcasts", label: "Podcasts" },
+              { to: "/media", label: "Media" },
+              { to: "/events", label: "Events" },
+              { to: "/contact", label: "Contact" },
+            ].map((link, index) => (
+              <Link
+                key={index}
+                to={link.to}
+                className="cursor-pointer relative group text-lg"
+              >
+                {link.label}
+                <span className="absolute top-7 left-0 bottom-0 w-0 h-[2px] bg-text-orange transition-all duration-300 group-hover:w-full"></span>
+              </Link>
+            ))}
           </div>
         </div>
       </Container>
