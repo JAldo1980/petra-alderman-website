@@ -11,7 +11,7 @@ const ImagesAbove = ({
     <div className="images-above mt-12 px-4">
       <h2 className="text-4xl font-bold text-text-dark mb-4">{title}</h2>
       {generalDescription && (
-        <p className="text-lg text-text-dark mb-6">{generalDescription}</p>
+        <p className=" text-text-dark mb-6">{generalDescription}</p>
       )}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {publicationData.map((image, index) => (
