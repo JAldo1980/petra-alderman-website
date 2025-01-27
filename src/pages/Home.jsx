@@ -130,50 +130,50 @@ const Home = () => {
             title="Research"
             description="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
             images={researchImages}
-            imageClassName="w-2/3"
+            imageClassName=""
             contentClassName="mb-4"
           ></ImagesBelow>
           <button className="bg-button-blue py-1.5 px-5 rounded-full mt-6">
             Explore
           </button>
         </Container>
-        <Container>
-          <div className=" py-8">
-            <ImagesAbove
-              title="Publications"
-              generalDescription="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
-              publicationData={[
-                {
-                  imageSrc: "public/article-image.png",
-                  description:
-                    "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                  link: "https://example.com/image1",
-                },
-                {
-                  imageSrc: "public/article-image.png",
-                  description:
-                    "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                  link: "https://example.com/image2",
-                },
-                {
-                  imageSrc: "public/article-image.png",
-                  description:
-                    "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                  link: "https://example.com/image3",
-                },
-                {
-                  imageSrc: "public/article-image.png",
-                  description:
-                    "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                  link: "https://example.com/image3",
-                },
-              ]}
-              imageClassName="w-2/3"
-              contentClassName="mb-4"
-            />
-          </div>
-        </Container>
       </div>
+      <Container>
+        <div className=" py-8">
+          <ImagesAbove
+            title="Publications"
+            generalDescription="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
+            publicationData={[
+              {
+                imageSrc: "public/article-image.png",
+                description:
+                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
+                link: "https://example.com/image1",
+              },
+              {
+                imageSrc: "public/article-image.png",
+                description:
+                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
+                link: "https://example.com/image2",
+              },
+              {
+                imageSrc: "public/article-image.png",
+                description:
+                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
+                link: "https://example.com/image3",
+              },
+              {
+                imageSrc: "public/article-image.png",
+                description:
+                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
+                link: "https://example.com/image3",
+              },
+            ]}
+            imageClassName=""
+            contentClassName="mb-4"
+          />
+        </div>
+      </Container>
     </>
   );
 };
