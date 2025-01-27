@@ -10,10 +10,10 @@ const ImagesBelow = ({
 }) => {
   return (
     <div className="images-below">
-      <h1 className="text-2xl font-bold mb-4">{title}</h1>
+      <h2 className="text-4xl font-bold text-text-dark mb-4">{title}</h2>
       <p className="text-base mb-6">{description}</p>
       <div className={`aside-content ${contentClassName}`}>{children}</div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 items-center">
         {images.map((imageSrc, index) => (
           <div
             key={index}

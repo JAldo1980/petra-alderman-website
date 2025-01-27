@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bg-1": "#fbe8b0", // background 1
+        "bg-1": "#fff", // background 1
         "bg-2": "#334f59", // background 2
         "headline-1": "#ffa100", // headline color 1
         "headline-2": "#33515c", // headline color 2

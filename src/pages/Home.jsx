@@ -6,9 +6,9 @@ import Container from "../components/Container";
 
 const Home = () => {
   const researchImages = [
-    "path/to/your/image1.jpg",
-    "path/to/your/image2.jpg",
-    "path/to/your/image3.jpg",
+    "public/elections_img.png",
+    "public/nationbranding_img.png",
+    "public/southeastasia_img.png",
   ];
   return (
     <>
@@ -78,11 +78,16 @@ const Home = () => {
               I am a Post-Doctoral Research Fellow in Leadership for Inclusive
               and Democratic Politics at the University of Birmingham, and a
               Research Fellow of the Birmingham’s Centre for Elections,
-              Democracy, Accountability & Representation (CEDAR). My areas of
-              expertise include democratic and authoritarian politics. I have a
-              special interest in elections and nation branding and a geographic
-              focus on Southeast Asia. I am a country expert on Thailand.
+              Democracy, Accountability & Representation (CEDAR).
             </p>
+            <br />
+            <p className="text-text-dark">
+              My areas of expertise include democratic and authoritarian
+              politics. I have a special interest in elections and nation
+              branding and a geographic focus on Southeast Asia. I am a country
+              expert on Thailand.
+            </p>
+
             <br />
             <p className="text-text-dark">
               Along with my research work, I am an editor of the People, Power,
@@ -95,7 +100,7 @@ const Home = () => {
           </ImageAside>
         </Container>
       </div>
-      <div className="bg-bg-2 py-8">
+      <div className=" py-8">
         <Container>
           <ImagesBelow
             title="Research"
@@ -104,7 +109,7 @@ const Home = () => {
             imageClassName="w-2/3"
             contentClassName="mb-4"
           ></ImagesBelow>
-          <button className="bg-button-blue py-1.5 px-5 rounded-full ">
+          <button className="bg-button-blue py-1.5 px-5 rounded-full mt-6">
             Explore
           </button>
         </Container>
