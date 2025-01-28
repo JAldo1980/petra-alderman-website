@@ -91,6 +91,7 @@ const Teaching = () => {
           </div>
         </section>
       </Container>
+      <Footer />
     </div>
   );
 };
