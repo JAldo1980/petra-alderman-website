@@ -1,12 +1,13 @@
 import React from "react";
 import Container from "../components/Container";
+import Footer from "../components/Footer";
 
 const Research = () => {
   return (
     <div className="py-8">
       <Container>
         <div className="">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="">
             {/* Text Section */}
             <div>
               <h2 className="text-3xl font-bold mb-4">Research</h2>
@@ -98,6 +99,7 @@ const Research = () => {
           </div>
         </div>
       </Container>
+      <Footer />
     </div>
   );
 };
