@@ -6,8 +6,8 @@ const Media = () => {
   return (
     <div className="py-8">
       <Container>
-        <div className="">
-          <h1 className="text-3xl font-bold mb-6">Media</h1>
+        <div className="text-text-dark">
+          <h2 className="text-3xl font-bold mb-6">Media</h2>
 
           <p className="mb-4">
             As someone passionate about research and learning, I have found that

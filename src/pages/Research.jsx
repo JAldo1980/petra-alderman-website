@@ -10,16 +10,20 @@ const Research = () => {
           <div className="">
             {/* Text Section */}
             <div>
-              <h2 className="text-3xl font-bold mb-4">Research</h2>
-              <p className="mb-4">
+              <h2 className="text-3xl text-text-dark font-bold mb-4">
+                Research
+              </h2>
+              <p className="mb-4 text-text-dark">
                 As a researcher, I am deeply fascinated by the question of how
                 power is sustained and reproduced. I have explored this question
                 primarily in the context of authoritarian regimes, focusing
                 specifically on elections, nation branding and Southeast Asia.
               </p>
 
-              <h2 className="text-2xl font-semibold mb-4">Elections</h2>
-              <p className="mb-4">
+              <h2 className="text-2xl text-text-dark font-semibold mb-4">
+                Elections
+              </h2>
+              <p className="mb-4 text-text-dark">
                 My research in this area explores the role elections play in
                 authoritarian regimes. Most contemporary authoritarian regimes
                 hold regular, even competitive elections, but authoritarian
@@ -31,7 +35,7 @@ const Research = () => {
                 independent election commissions contribute to electoral
                 manipulation in these contexts.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-text-dark">
                 In my work, I argue that the establishment of formally
                 independent election commissions creates a set of challenges
                 that may become part of the problem why elections in
@@ -44,8 +48,10 @@ const Research = () => {
                 some contexts.
               </p>
 
-              <h2 className="text-2xl font-semibold mb-4">Nation Branding</h2>
-              <p className="mb-4">
+              <h2 className="text-2xl font-semibold mb-4 text-text-dark">
+                Nation Branding
+              </h2>
+              <p className="mb-4 text-text-dark">
                 My work in this area is inspired by the changing nature of
                 contemporary authoritarianism, both domestically and in its
                 interactions with the outside world. It brings together
@@ -55,7 +61,7 @@ const Research = () => {
                 has attracted relatively little interest among politics and
                 international relations scholars.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-text-dark">
                 The core argument of my research work is that nation branding
                 forms an integral part of state legitimation processes in
                 authoritarian regimes. Because of this, we need to stop seeing
@@ -66,8 +72,10 @@ const Research = () => {
                 the government’s domestic agenda and legitimation needs.
               </p>
 
-              <h2 className="text-2xl font-semibold mb-4">Southeast Asia</h2>
-              <p className="mb-4">
+              <h2 className="text-2xl font-semibold mb-4 text-text-dark">
+                Southeast Asia
+              </h2>
+              <p className="mb-4 text-text-dark">
                 Southeast Asia has a long history of authoritarian rule and
                 continues to be home to many different forms of
                 authoritarianism. This makes it a fascinating region to study.
@@ -76,7 +84,7 @@ const Research = () => {
                 factors that enable authoritarianism to persist and even thrive
                 in this diverse region.
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-text-dark">
                 In this area, I am currently working on a research article that
                 examines the extent to which the US-China rivalry maps on the
                 domestic political attitudes of Thai citizens. The paper’s
@@ -87,7 +95,7 @@ const Research = () => {
                 of the political elites.
               </p>
 
-              <p className="mb-6">
+              <p className="mb-6 text-text-dark">
                 Overall, my research contributes to the study of
                 authoritarianism by exploring a range of issues across different
                 countries and contexts. By gaining a comprehensive understanding

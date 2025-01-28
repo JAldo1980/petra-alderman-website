@@ -10,11 +10,15 @@ const Publications = () => {
           <div className="">
             {/* Text Section */}
             <div>
-              <h1 className="text-3xl font-bold mb-4">Publications</h1>
+              <h2 className="text-3xl text-text-dark font-bold mb-4">
+                Publications
+              </h2>
 
               <section className="mb-8">
-                <h2 className="text-xl font-semibold mb-2">Books</h2>
-                <ul className="list-disc ml-6">
+                <h2 className="text-xl text-text-dark font-semibold mb-2">
+                  Books
+                </h2>
+                <ul className="list-disc ml-6 text-text-dark">
                   <li>
                     Alderman, Petra.{" "}
                     <em>
@@ -30,7 +34,7 @@ const Publications = () => {
                 </ul>
               </section>
 
-              <section className="mb-8">
+              <section className="mb-8 text-text-dark">
                 <h2 className="text-xl font-semibold mb-2">Journal articles</h2>
                 <ul className="list-disc ml-6">
                   <li>
@@ -105,7 +109,7 @@ const Publications = () => {
                 </ul>
               </section>
 
-              <section className="mb-8">
+              <section className="mb-8 text-text-dark">
                 <h2 className="text-xl font-semibold mb-2">Book chapters</h2>
                 <ul className="list-disc ml-6">
                   <li>
@@ -129,10 +133,10 @@ const Publications = () => {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold mb-2">
+                <h2 className="text-xl font-semibold mb-2 text-text-dark">
                   Policy reports & briefs
                 </h2>
-                <ul className="list-disc ml-6">
+                <ul className="list-disc ml-6 text-text-dark">
                   <li>
                     Alderman, Petra. ‘Legislative leadership on environmental
                     issues,’ Westminster Foundation for Democracy, November

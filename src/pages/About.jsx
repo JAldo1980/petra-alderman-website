@@ -9,20 +9,20 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Text Section */}
           <div>
-            <h1 className="text-3xl font-bold mb-4">About Me</h1>
-            <p className="mb-4">
+            <h2 className="text-3xl text-text-dark font-bold mb-4">About Me</h2>
+            <p className="mb-4 text-text-dark">
               I am a Post-Doctoral Research Fellow in Leadership for Inclusive
               and Democratic Politics at the University of Birmingham, and a
               Research Fellow of the Birmingham’s Centre for Elections,
               Democracy, Accountability & Representation (CEDAR).
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-text-dark">
               My areas of expertise include democratic and authoritarian
               politics. I have a special interest in elections and nation
               branding and a geographic focus on Southeast Asia. I am a country
               expert on Thailand.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-text-dark">
               Along with my research work, I am an editor of the People, Power,
               Politics podcast where, together with my CEDAR colleagues, I
               interview scholars about their work and publications on democracy,
@@ -30,22 +30,26 @@ const About = () => {
               the Nordic Asia Podcast and Thailand Social Science Seminar Series
               (TS4).
             </p>
-            <p className="mb-6">Please feel free to contact me.</p>
-            <h2 className="text-2xl font-semibold mb-4">Biography</h2>
-            <p className="mb-4">
+            <p className="mb-6 text-text-dark">
+              Please feel free to contact me.
+            </p>
+            <h2 className="text-2xl text-text-dark font-semibold mb-4">
+              Biography
+            </h2>
+            <p className="mb-4 text-text-dark">
               I joined the University of Birmingham in December 2021 after two
               years at the Nordic Institute of Asian Studies and the Department
               of Political Science at the University of Copenhagen, where I was
               a postdoctoral research fellow.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-text-dark">
               Prior to that I was a doctoral researcher at the University of
               Leeds. My PhD thesis was nominated for the British International
               Studies Association’s 2020 Michael Nicholson Thesis Prize and
               long-listed for the International Convention of Asia Scholars 2021
               Book Prize for the Best Dissertation in the Social Sciences.
             </p>
-            <p className="mb-6">
+            <p className="mb-6 text-text-dark">
               In 2020, I was selected a Young Southeast Asia Fellow
               (non-resident) by the Southeast Asia Research Group for my leading
               work on nation branding.
@@ -64,8 +68,10 @@ const About = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             {" "}
-            <h2 className="text-2xl font-semibold mb-4">Qualifications</h2>
-            <ul className="list-disc ml-6 mb-6">
+            <h2 className="text-2xl text-text-dark font-semibold mb-4">
+              Qualifications
+            </h2>
+            <ul className="list-disc ml-6 mb-6 text-text-dark">
               <li>
                 PhD in Politics and International Studies, University of Leeds,
                 2019
@@ -81,8 +87,10 @@ const About = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-2xl font-semibold mb-4">Other Activities</h2>
-            <ul className="list-disc ml-6 mb-6">
+            <h2 className="text-2xl text-text-dark font-semibold mb-4">
+              Other Activities
+            </h2>
+            <ul className="list-disc ml-6 mb-6 text-text-dark">
               <li>
                 Former editor and current host on the Nordic Asia Podcast series
                 (20,000+ downloads a month), April 2020 – Present.

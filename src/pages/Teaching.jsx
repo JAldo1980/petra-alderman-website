@@ -6,10 +6,10 @@ const Teaching = () => {
   return (
     <div className="py-8">
       <Container>
-        <section className="">
+        <section className="text-text-dark">
           <div className="">
             <div>
-              <h1 className="text-3xl font-bold mb-4">Teaching</h1>
+              <h2 className="text-3xl font-bold mb-4">Teaching</h2>
               <p className="mb-4">
                 I am an experienced and dedicated teacher who is passionate
                 about providing high-quality education to students from diverse

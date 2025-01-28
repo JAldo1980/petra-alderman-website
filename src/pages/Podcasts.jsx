@@ -6,7 +6,7 @@ const Podcasts = () => {
   return (
     <div className="py-8">
       <Container>
-        <div className="">
+        <div className="text-text-dark">
           <div className="">
             <div>
               <h1 className="text-3xl font-bold mb-4">Podcasts</h1>

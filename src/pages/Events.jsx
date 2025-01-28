@@ -6,8 +6,8 @@ const Events = () => {
   return (
     <div className="py-8">
       <Container>
-        <div className="">
-          <h2 className="text-2xl font-bold mb-6">Events</h2>
+        <div className="text-text-dark">
+          <h2 className="text-3xl font-bold mb-6">Events</h2>
           <p className="text-lg mb-4">
             I give regular presentations of my research at academic conferences,
             seminars, and workshops in the UK, United States, Europe, and Asia.
