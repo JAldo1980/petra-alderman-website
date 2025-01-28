@@ -8,7 +8,7 @@ const ImagesAbove = ({
   contentClassName,
 }) => {
   return (
-    <div className="images-above mt-12 px-4">
+    <div className="images-above mt-6 px-4">
       <h2 className="text-4xl font-bold text-text-dark mb-4">{title}</h2>
       {generalDescription && (
         <p className=" text-text-dark mb-6">{generalDescription}</p>

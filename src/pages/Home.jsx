@@ -3,9 +3,9 @@ import React from "react";
 import ImageAside from "../components/ImageAside";
 import ImagesBelow from "../components/ImagesBelow";
 import ImagesAbove from "../components/ImagesAbove";
-// import GridContainers from "../components/GridContainers";
 import Container from "../components/Container";
 import GridContainers from "../components/GridContainers";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const researchImages = [
@@ -186,6 +186,8 @@ const Home = () => {
           <GridContainers />
         </Container>
       </div>
+
+      <Footer />
     </>
   );
 };
