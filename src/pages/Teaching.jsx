@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Teaching = () => {
   return (
-    <div className="py-6">
+    <div className="py-8">
       <Container>
         <section className="">
           <div className="">
