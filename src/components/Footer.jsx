@@ -11,7 +11,10 @@ const Footer = () => {
           </h3>
           <ul className="flex space-x-4">
             <li>
-              <a href="#" className="text-white hover:text-blue-500">
+              <a
+                href="https://www.linkedin.com/in/petra-alderman-8873b44a/"
+                className="text-white hover:text-blue-500"
+              >
                 <p className="text-text-blue hover:text-blue-500">LinkedIn</p>
               </a>
             </li>
