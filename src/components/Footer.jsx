@@ -16,7 +16,10 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-blue-500">
+              <a
+                href="https://bsky.app/profile/petraalderman.bsky.social"
+                className="text-white hover:text-blue-500"
+              >
                 <p className="text-text-blue hover:text-blue-500">BlueSky</p>
               </a>
             </li>
