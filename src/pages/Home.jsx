@@ -9,9 +9,9 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   const researchImages = [
-    "public/elections_img.png",
-    "public/nationbranding_img.png",
-    "public/southeastasia_img.png",
+    "/elections_img.png",
+    "/nationbranding_img.png",
+    "/southeastasia_img.png",
   ];
 
   const publicationData = [
