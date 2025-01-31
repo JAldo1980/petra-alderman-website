@@ -59,7 +59,7 @@ const About = () => {
           {/* Image Section */}
           <div>
             <img
-              src="public/petra_hero.png"
+              src="/petra_hero.png"
               alt="Research Fellow"
               className="w-full h-auto"
             />

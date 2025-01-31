@@ -41,7 +41,7 @@ const Home = () => {
       <div className="bg-bg-1 py-8">
         <Container>
           <ImageAside
-            imageSrc="public/petra_hero.png"
+            imageSrc="petra_hero.png"
             altText="Petra Alderman"
             imageClassName="w-full"
             //   contentClassName="flex flex-col justify-between gap-12"
@@ -64,7 +64,7 @@ const Home = () => {
       <div className="bg-bg-2 py-8">
         <Container>
           <ImageAside
-            imageSrc="public/petra_book 1.png"
+            imageSrc="/petra_book 1.png"
             altText="Petra Alderman"
             imageClassName="w-2/3 md:order-1"
             contentClassName="md:order-2"
@@ -92,7 +92,7 @@ const Home = () => {
       <div className="bg-bg-1 py-8">
         <Container>
           <ImageAside
-            imageSrc="public/petra-quote.png"
+            imageSrc="/petra-quote.png"
             altText="Petra Alderman quote"
             imageClassName="w-2/3 mx-auto"
           >
@@ -147,25 +147,25 @@ const Home = () => {
             generalDescription="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
             publicationData={[
               {
-                imageSrc: "public/article-image.png",
+                imageSrc: "/article-image.png",
                 description:
                   "A very brief overview of article can go here. Keep it reasonably short and to the point.",
                 link: "https://example.com/image1",
               },
               {
-                imageSrc: "public/article-image.png",
+                imageSrc: "/article-image.png",
                 description:
                   "A very brief overview of article can go here. Keep it reasonably short and to the point.",
                 link: "https://example.com/image2",
               },
               {
-                imageSrc: "public/article-image.png",
+                imageSrc: "/article-image.png",
                 description:
                   "A very brief overview of article can go here. Keep it reasonably short and to the point.",
                 link: "https://example.com/image3",
               },
               {
-                imageSrc: "public/article-image.png",
+                imageSrc: "/article-image.png",
                 description:
                   "A very brief overview of article can go here. Keep it reasonably short and to the point.",
                 link: "https://example.com/image3",
