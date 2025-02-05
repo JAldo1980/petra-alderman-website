@@ -10,7 +10,7 @@ const GridContainers = () => {
     >
       <div>
         <h3 className="text-2xl font-bold text-headline-2">Teaching</h3>
-        <a href="#">
+        <a href="/teaching">
           <img
             src="/placeholder-Image.png"
             alt="teaching image"
@@ -20,7 +20,7 @@ const GridContainers = () => {
       </div>
       <div>
         <h3 className="text-2xl font-bold text-headline-2">Podcasts</h3>
-        <a href="#">
+        <a href="/podcasts">
           <img
             src="/placeholder-Image.png"
             alt="teaching image"
@@ -30,7 +30,7 @@ const GridContainers = () => {
       </div>
       <div>
         <h3 className="text-2xl font-bold text-headline-2">Media</h3>
-        <a href="#">
+        <a href="/media">
           <img
             src="/placeholder-Image.png"
             alt="teaching image"
@@ -40,7 +40,7 @@ const GridContainers = () => {
       </div>
       <div>
         <h3 className="text-2xl font-bold text-headline-2">Events</h3>
-        <a href="#">
+        <a href="/events">
           <img
             src="/placeholder-Image.png"
             alt="teaching image"
