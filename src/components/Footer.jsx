@@ -109,7 +109,7 @@ const Footer = () => {
             Back to Top
           </a>
           <p className="mt-2 text-sm">
-            &copy; {new Date().getFullYear()} Dr Petra Alderman. All Rights
+            &copy; {new Date().getFullYear()}. Dr. Petra Alderman. All Rights
             Reserved.
           </p>
           <p className="mt-2 text-sm">Designed & Built by James Alderman.</p>
