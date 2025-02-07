@@ -80,9 +80,12 @@ const Home = () => {
               <p className="text-text-blue font-bold">
                 Available in hardback, paperback and ebook.
               </p>
-              <div>
+              <div className="flex gap-6">
                 <button className="bg-button-blue py-1.5 px-5 rounded-full drop-shadow-md hover:drop-shadow-sm">
-                  Explore
+                  Buy Book
+                </button>
+                <button className="bg-button-blue py-1.5 px-5 rounded-full drop-shadow-md hover:drop-shadow-sm">
+                  Buy eBook
                 </button>
               </div>
             </div>
