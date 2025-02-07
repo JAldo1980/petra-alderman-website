@@ -139,7 +139,7 @@ const Home = () => {
             contentClassName="mb-4"
           ></ImagesBelow>
           <button className="bg-button-blue py-1.5 px-5 rounded-full mt-6 drop-shadow-md hover:drop-shadow-sm">
-            Explore
+            Explore Petra's research
           </button>
         </Container>
       </div>
@@ -179,7 +179,7 @@ const Home = () => {
           />
           <div>
             <button className="bg-button-blue py-1.5 px-5 rounded-full mt-4 drop-shadow-md hover:drop-shadow-sm">
-              Explore all publications
+              Explore Petra's publications
             </button>
           </div>
         </div>
