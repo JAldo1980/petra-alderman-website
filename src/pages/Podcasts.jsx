@@ -1,10 +1,15 @@
 import React from "react";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const Podcasts = () => {
   return (
     <div className="py-8">
+      <Helmet>
+        <title>Events | Petra Alderman</title>
+        <meta name="description" content="Explore Dr Petra Alderman's Events" />
+      </Helmet>
       <Container>
         <div className="text-text-dark">
           <div className="">
