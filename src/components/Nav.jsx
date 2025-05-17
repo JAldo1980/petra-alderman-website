@@ -8,9 +8,15 @@ const Nav = () => {
       <Container>
         <div className="flex justify-between">
           <a href="/">
-            <h3 className="uppercase font-bold text-text-orange text-4xl leading-none">
-              Petra <br />
-              <span className="text-text-dark">Alderman</span>
+            <h3 className="font-bold text-text-orange text-4xl leading-none">
+              Dr{" "}
+              <span className="uppercase font-bold text-text-orange text-4xl leading-none">
+                Petra{" "}
+              </span>
+              <br />
+              <span className="uppercase text-4xl font-bold leading-none text-text-dark">
+                Alderman
+              </span>
             </h3>
           </a>
 
