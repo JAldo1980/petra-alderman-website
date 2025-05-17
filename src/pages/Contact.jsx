@@ -5,6 +5,10 @@ import Footer from "../components/Footer";
 const Contact = () => {
   return (
     <div className="py-8">
+      <Helmet>
+        <title>Contact | Petra Alderman</title>
+        <meta name="description" content="Contact Dr Petra Alderman" />
+      </Helmet>
       <Container>
         <div className="">
           <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
