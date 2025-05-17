@@ -1,5 +1,6 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import "./App.css";
 import "./index.css";
 import Nav from "./components/Nav";
@@ -15,22 +16,24 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/research" element={<Research />} />
-          <Route path="/publications" element={<Publications />} />
-          <Route path="/teaching" element={<Teaching />} />
-          <Route path="/podcasts" element={<Podcasts />} />
-          <Route path="/media" element={<Media />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <div>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/research" element={<Research />} />
+            <Route path="/publications" element={<Publications />} />
+            <Route path="/teaching" element={<Teaching />} />
+            <Route path="/podcasts" element={<Podcasts />} />
+            <Route path="/media" element={<Media />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 
