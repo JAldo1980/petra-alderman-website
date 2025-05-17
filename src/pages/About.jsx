@@ -1,10 +1,18 @@
 import React from "react";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <div className="py-8">
+      <Helmet>
+        <title>About | Petra Alderman</title>
+        <meta
+          name="description"
+          content="Learn more about Petra Alderman’s academic background and research interests."
+        />
+      </Helmet>
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Text Section */}
