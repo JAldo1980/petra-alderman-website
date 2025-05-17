@@ -48,14 +48,14 @@ const Home = () => {
           >
             <div className="flex flex-col justify-between gap-14">
               <div>
-                <h2 className="text-4xl font-bold text-text-dark ">
-                  Political Scientist <br></br> Southeast Asia Specialist{" "}
-                  <br></br> Thailand Expert
+                <h2 className="text-6xl font-bold text-text-dark ">
+                  Researcher<br></br>Policy Advisor <br></br>Author
                 </h2>
               </div>
               <div>
-                <p className="text-text-orange font-bold">
-                  Academic | Researcher | Policy Advisor | Author
+                <p className="text-md text-text-orange font-bold">
+                  Authoritarianism | Democratic Politics | Southesast Asia |
+                  Thailand
                 </p>
               </div>
             </div>
@@ -74,20 +74,19 @@ const Home = () => {
               <h3 className="text-2xl font-bold text-headline-1">
                 Buy Petra's book:
               </h3>
-              <p className="text-text-orange">
+              <p className="text-xl text-text-orange">
                 Branding Authoritarian Nations: Political Legitimation and
-                Strategic National Myths in Military-Ruled Thailand.
+                Strategic National Myths in Military-Ruled Thailand
               </p>
               <p className="text-text-blue font-bold">
                 Available in hardback, paperback and ebook.
               </p>
               <div className="flex gap-6">
-                <button className="bg-button-blue py-1.5 px-5 rounded-full drop-shadow-md hover:drop-shadow-sm">
-                  Buy Book
-                </button>
-                <button className="bg-button-blue py-1.5 px-5 rounded-full drop-shadow-md hover:drop-shadow-sm">
-                  Buy eBook
-                </button>
+                <a href="https://www.routledge.com/Branding-Authoritarian-Nations-Political-Legitimation-and-Strategic-National-Myths-in-Military-Ruled-Thailand/Alderman/p/book/9781032517551?srsltid=AfmBOopab51cV_9F9Wcpe7-q9NJGGuGmAfbitVLUfuBF-_7MyY9VABka">
+                  <button className="bg-button-blue py-1.5 px-5 rounded-full drop-shadow-md hover:drop-shadow-sm">
+                    Buy Book
+                  </button>
+                </a>
               </div>
             </div>
           </ImageAside>
@@ -105,27 +104,30 @@ const Home = () => {
             </div>
             <br />
             <p className="text-text-dark">
-              I am a Post-Doctoral Research Fellow in Leadership for Inclusive
-              and Democratic Politics at the University of Birmingham, and a
-              Research Fellow of the Birmingham’s Centre for Elections,
-              Democracy, Accountability & Representation (CEDAR).
+              I am a researcher, policy advisor, and a manager of the Saw Swee
+              Hock Southeast Asia Centre at the London School of Economics and
+              Political Science (LSE). Before joining LSE, I was a postdoctoral
+              research fellow at the Centre for Elections, Democracy,
+              Accountability & Representation (CEDAR) at the University of
+              Birmingham, and a postdoctoral researcher at the Nordic Institute
+              of Asian Studies (NIAS) at the University of Copenhagen.
             </p>
             <br />
             <p className="text-text-dark">
-              My areas of expertise include democratic and authoritarian
-              politics. I have a special interest in elections and nation
-              branding and a geographic focus on Southeast Asia. I am a country
-              expert on Thailand.
+              My main areas of expertise include democratic and authoritarian
+              politics. I have a special interest in elections and electoral
+              management, political polarisation, and promotional politics
+              (especially nation branding). I have a geographic focus on
+              Southeast Asia, with a notable country expertise on Thailand.
             </p>
 
             <br />
             <p className="text-text-dark">
-              Along with my research work, I am an editor of the People, Power,
-              Politics podcast where, together with my CEDAR colleagues, I
-              interview scholars about their work and publications on democracy,
-              authoritarian politics, and elections. I am also a regular host on
-              the Nordic Asia Podcast and Thailand Social Science Seminar Series
-              (TS4).
+              Along with my research work, I am an avid podcaster. At
+              Birmingham, I founded the successfull People, Power, Politics
+              podcast where I interviewed scholars about their work and
+              publications on democracy, authoritarian politics, and elections.
+              I was also a regular host on the Nordic Asia Podcast.
             </p>
           </ImageAside>
         </Container>
