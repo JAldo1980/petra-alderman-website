@@ -49,7 +49,8 @@ const Home = () => {
             <div className="flex flex-col justify-between gap-14">
               <div>
                 <h2 className="text-4xl font-bold text-text-dark ">
-                  "A Thai Scholar of Significant Relevance"
+                  Political Scientist <br></br> Southeast Asia Specialist{" "}
+                  <br></br> Thailand Expert
                 </h2>
               </div>
               <div>
