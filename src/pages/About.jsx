@@ -39,7 +39,9 @@ const About = () => {
               (TS4).
             </p>
             <p className="mb-6 text-text-dark">
-              Please feel free to contact me.
+              <a href="/contact" aria-label="contact me link">
+                Please feel free to contact me.
+              </a>
             </p>
             <h2 className="text-2xl text-text-dark font-semibold mb-4">
               Biography

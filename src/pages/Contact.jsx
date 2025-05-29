@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   return (
