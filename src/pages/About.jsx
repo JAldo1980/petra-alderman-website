@@ -19,24 +19,30 @@ const About = () => {
           <div>
             <h2 className="text-3xl text-text-dark font-bold mb-4">About Me</h2>
             <p className="mb-4 text-text-dark">
-              I am a Post-Doctoral Research Fellow in Leadership for Inclusive
-              and Democratic Politics at the University of Birmingham, and a
-              Research Fellow of the Birmingham’s Centre for Elections,
-              Democracy, Accountability & Representation (CEDAR).
+              I am an author, researcher, and policy advisor specialising in
+              authoritarian and democratic politics, with a primary focus on
+              Southeast Asia. I have particular expertise on Thailand, including
+              full linguistic proficiency in the Thai language.
             </p>
             <p className="mb-4 text-text-dark">
-              My areas of expertise include democratic and authoritarian
-              politics. I have a special interest in elections and nation
-              branding and a geographic focus on Southeast Asia. I am a country
-              expert on Thailand.
+              Over the past 15 years, I have lived and studied in Thailand on
+              several occasions, developing a deep appreciation for the country
+              and its people. My Central European background (I grew up in
+              post-communist Czechoslovakia/Slovakia) combined with years of
+              study and work in the United Kingdom and Denmark, gives me a
+              unique set of experiences and perspectives that I bring to both
+              research and policy work.
             </p>
             <p className="mb-4 text-text-dark">
-              Along with my research work, I am an editor of the People, Power,
-              Politics podcast where, together with my CEDAR colleagues, I
-              interview scholars about their work and publications on democracy,
-              authoritarian politics and elections. I am also a regular host on
-              the Nordic Asia Podcast and Thailand Social Science Seminar Series
-              (TS4).
+              I currently manage the Saw Swee Hock Southeast Asia Centre at the
+              London School of Economics and Political Science (LSE). Before
+              joining LSE, I was a joint research fellow at the Centre for
+              Elections, Democracy, Accountability and Representation (CEDAR)
+              and the International Development Department at the University of
+              Birmingham (2021–2025), and a postdoctoral research fellow at the
+              Nordic Institute of Asian Studies (NIAS) at the University of
+              Copenhagen (2019–2021). I received my PhD from the University of
+              Leeds.
             </p>
             <p className="mb-6 text-text-dark">
               <a href="/contact" aria-label="contact me link">
