@@ -7,7 +7,7 @@ const Research = () => {
   return (
     <div className="py-8">
       <Helmet>
-        <title>Events | Petra Alderman</title>
+        <title>Research | Petra Alderman</title>
         <meta
           name="description"
           content="Explore Dr Petra Alderman's Research Work"
@@ -22,10 +22,10 @@ const Research = () => {
                 Research
               </h2>
               <p className="mb-4 text-text-dark">
-                As a researcher, I am deeply fascinated by the question of how
-                power is sustained and reproduced. I have explored this question
-                primarily in the context of authoritarian regimes, focusing
-                specifically on elections, nation branding and Southeast Asia.
+                My research is primarily concerned with the question of how
+                authoritarian power is sustained and reproduced. I have examined
+                this question on a range of issues, including elections, nation
+                branding, environmental leadership and Southeast Asian politics.
               </p>
 
               <h2 className="text-2xl text-text-dark font-semibold mb-4">
