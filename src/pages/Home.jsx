@@ -153,28 +153,28 @@ const Home = () => {
             generalDescription="My work has been published in leading disciplinary and area studies journals. Here are some of my key publications:"
             publicationData={[
               {
-                imageSrc: "/article-image.png",
+                imageSrc: "/article-image-two.png",
                 description:
-                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                link: "https://example.com/image1",
+                  "Subverting Elections in Thailand: Inclusion and independence in election commission design and practice",
+                link: "https://journals.sagepub.com/doi/10.1177/01925121241312884?int.sj-full-text.similar-articles.2",
               },
               {
                 imageSrc: "/article-image.png",
                 description:
-                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                link: "https://example.com/image2",
+                  "Vision documents, nation branding and the legitimation of non-democratic regimes (with Kristin Eggeling)",
+                link: "https://www.tandfonline.com/doi/abs/10.1080/14650045.2023.2165441",
               },
               {
-                imageSrc: "/article-image.png",
+                imageSrc: "/article-image-three.png",
                 description:
-                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                link: "https://example.com/image3",
+                  "Autocratic Electoral Management: Lessons from Thailand",
+                link: "https://journals.sagepub.com/doi/full/10.1177/18681034231190940",
               },
               {
-                imageSrc: "/article-image.png",
+                imageSrc: "/article-image-four.png",
                 description:
-                  "A very brief overview of article can go here. Keep it reasonably short and to the point.",
-                link: "https://example.com/image3",
+                  "Thailand 4.0 and the Internal Focus of Nation Branding",
+                link: "https://www.tandfonline.com/doi/full/10.1080/10357823.2018.1512555",
               },
             ]}
             imageClassName=""
