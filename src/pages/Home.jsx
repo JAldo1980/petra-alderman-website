@@ -49,7 +49,8 @@ const Home = () => {
             <div className="flex flex-col justify-between gap-14">
               <div>
                 <h2 className="text-6xl font-bold text-text-dark ">
-                  Researcher<br></br>Policy Advisor <br></br>Author
+                  Comparative Politics Scholar<br></br>Policy Advisor<br></br>
+                  Media Commentator
                 </h2>
               </div>
               <div>
