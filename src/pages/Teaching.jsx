@@ -19,15 +19,11 @@ const Teaching = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4">Teaching</h2>
               <p className="mb-4">
-                I am a committed, enthusiastic and skilled teacher with five
-                years of teaching experience. I enjoy mentoring students from
-                diverse backgrounds and foster an inclusive and enjoyable
-                learning environment. In my classes, I encourage constructive
-                debate and disagreement, assign readings from non-western
-                scholars, use visual foreign-language materials (with subtitles)
-                and examples from outside the western world. I encourage my
-                students to engage with countries they have not studied or
-                visited before.
+                I am an experienced and dedicated teacher who is passionate
+                about providing high-quality education to students from diverse
+                backgrounds. I have designed and delivered my own module as well
+                as taught on several introductory modules within the disciplines
+                of comparative politics and international relations.
               </p>
               <p className="mb-4">
                 I have taught undergraduate and postgraduate students at
