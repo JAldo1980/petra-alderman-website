@@ -32,7 +32,7 @@ const GridContainers = () => {
         <h3 className="text-2xl font-bold text-headline-2">Media</h3>
         <a href="/media">
           <img
-            src="/petra-alderman-france-24"
+            src="/petra-alderman-france-24.webp"
             alt="teaching image"
             className="cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out mt-4"
           />
