@@ -22,10 +22,16 @@ const Research = () => {
                 Research
               </h2>
               <p className="mb-4 text-text-dark">
-                My research is primarily concerned with the question of how
-                authoritarian power is sustained and reproduced. I have examined
-                this question on a range of issues, including elections, nation
-                branding, environmental leadership and Southeast Asian politics.
+                I am interested in the rise, fall, and the maintenance of
+                political regimes. I have studied this topic in the context of
+                elections and electoral management, nation branding,
+                authoritarian legitimation, authoritarian future-making, and
+                political polarisation. My work has been published in leading
+                disciplinary and area studies journals, including International
+                Political Science Review, Geopolitics, Politics and the Journal
+                of Current Southeast Asian Affairs, and has been funded by the
+                United States Institute of Peace and the Westminster Foundation
+                for Democracy.
               </p>
 
               <h2 className="text-2xl text-text-dark font-semibold mb-4">
