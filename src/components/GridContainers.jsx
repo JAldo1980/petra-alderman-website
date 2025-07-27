@@ -12,7 +12,7 @@ const GridContainers = () => {
         <h3 className="text-2xl font-bold text-headline-2">Teaching</h3>
         <a href="/teaching">
           <img
-            src="/placeholder-Image.png"
+            src="/petra-alderman-teaching.webp"
             alt="teaching image"
             className="cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out mt-4"
           />
@@ -42,7 +42,7 @@ const GridContainers = () => {
         <h3 className="text-2xl font-bold text-headline-2">Events</h3>
         <a href="/events">
           <img
-            src="/placeholder-Image.png"
+            src="/petra-alderman-events.webp"
             alt="teaching image"
             className="cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out mt-4"
           />
