@@ -97,7 +97,7 @@ const Home = () => {
       <div className="bg-bg-1 py-8">
         <Container>
           <ImageAside
-            imageSrc="/petra-quote.png"
+            imageSrc="/petra-quote-two.png"
             altText="Petra Alderman quote"
             imageClassName="w-2/3 mx-auto"
           >
@@ -113,9 +113,17 @@ const Home = () => {
             </p>
             <br />
             <p className="text-text-dark">
-              My work bridges academic research, media engagement, and policy
-              impact. I’ve written for The Conversation, advised UK government
-              bodies, and appeared on BBC, France24, and ABC Australia.
+              I’ve written for The Conversation, advised UK government bodies,
+              and appeared on BBC, France24, and ABC Australia.
+            </p>
+            <br />
+            <p className="text-text-dark">
+              I currently work at the{" "}
+              <a href="https://www.lse.ac.uk/seac/people">
+                London School of Economics and Political Science.
+              </a>{" "}
+              Previously, I held research roles at the University of Birmingham
+              and University of Copenhagen.
             </p>
 
             <br />
@@ -126,21 +134,23 @@ const Home = () => {
         <Container>
           <ImagesBelow
             title="Research"
-            description="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
+            description="I explore how political regimes rise, survive, and fall through the lenses of elections, authoritarian legitimation, nation branding, and political polarisation."
             images={researchImages}
             imageClassName=""
             contentClassName="mb-4"
           ></ImagesBelow>
-          <button className="bg-button-blue py-1.5 px-5 rounded-full mt-6 drop-shadow-md hover:drop-shadow-sm">
-            Explore Petra's research
-          </button>
+          <a href="/Research">
+            <button className="bg-button-blue py-1.5 px-5 rounded-full mt-6 drop-shadow-md hover:drop-shadow-sm">
+              Explore Petra's research
+            </button>
+          </a>
         </Container>
       </div>
       <Container>
         <div className=" py-8">
           <ImagesAbove
             title="Publications"
-            generalDescription="As a researcher, I am deeply fascinated by the question of how power is sustained and reproduced. I have explored this question primarily in the context of authoritarian regimes, focusing specifically on elections, nation branding and Southeast Asia."
+            generalDescription="My work has been published in leading disciplinary and area studies journals. Here are some of my key publications:"
             publicationData={[
               {
                 imageSrc: "/article-image.png",
