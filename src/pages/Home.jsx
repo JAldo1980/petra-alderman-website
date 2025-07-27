@@ -49,14 +49,15 @@ const Home = () => {
             <div className="flex flex-col justify-between gap-14">
               <div>
                 <h2 className="text-6xl font-bold text-text-dark ">
-                  Comparative Politics Scholar<br></br>Policy Advisor<br></br>
-                  Media Commentator
+                  Researcher<br></br>Policy Advisor <br></br>Author
                 </h2>
               </div>
               <div>
-                <p className="text-md text-text-orange font-bold">
-                  Authoritarianism | Democratic Politics | Southesast Asia |
-                  Thailand
+                <p className="text-2xl text-text-orange font-bold">
+                  Authoritarianism | Democracy
+                </p>
+                <p className="text-2xl text-text-orange font-bold">
+                  Southeast Asia | Thailand
                 </p>
               </div>
             </div>
@@ -105,31 +106,19 @@ const Home = () => {
             </div>
             <br />
             <p className="text-text-dark">
-              I am a researcher, policy advisor, and a manager of the Saw Swee
-              Hock Southeast Asia Centre at the London School of Economics and
-              Political Science (LSE). Before joining LSE, I was a postdoctoral
-              research fellow at the Centre for Elections, Democracy,
-              Accountability & Representation (CEDAR) at the University of
-              Birmingham, and a postdoctoral researcher at the Nordic Institute
-              of Asian Studies (NIAS) at the University of Copenhagen.
+              I’m a UK-based comparative political scientist, writer, and
+              commentator specialising in authoritarian regimes, democratic
+              decline, and political branding - especially in Southeast Asia and
+              Thailand.
             </p>
             <br />
             <p className="text-text-dark">
-              My main areas of expertise include democratic and authoritarian
-              politics. I have a special interest in elections and electoral
-              management, political polarisation, and promotional politics
-              (especially nation branding). I have a geographic focus on
-              Southeast Asia, with a notable country expertise on Thailand.
+              My work bridges academic research, media engagement, and policy
+              impact. I’ve written for The Conversation, advised UK government
+              bodies, and appeared on BBC, France24, and ABC Australia.
             </p>
 
             <br />
-            <p className="text-text-dark">
-              Along with my research work, I am an avid podcaster. At
-              Birmingham, I founded the successfull People, Power, Politics
-              podcast where I interviewed scholars about their work and
-              publications on democracy, authoritarian politics, and elections.
-              I was also a regular host on the Nordic Asia Podcast.
-            </p>
           </ImageAside>
         </Container>
       </div>
