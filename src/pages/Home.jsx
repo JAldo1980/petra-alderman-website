@@ -6,6 +6,7 @@ import ImagesAbove from "../components/ImagesAbove";
 import Container from "../components/Container";
 import GridContainers from "../components/GridContainers";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const researchImages = [
@@ -39,6 +40,16 @@ const Home = () => {
   return (
     <>
       <div className="bg-bg-1 py-8">
+        <Helmet>
+          <title>About | Petra Alderman</title>
+          <meta
+            name="description"
+            content="Petra Alderman is a UK-based political scientist focused on authoritarianism, democracy, and Southeast Asia—especially Thailand. Discover her work."
+          />
+
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://www.petraalderman.com" />
+        </Helmet>
         <Container>
           <ImageAside
             imageSrc="petra_hero.png"
