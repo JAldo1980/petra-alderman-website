@@ -12,7 +12,7 @@ const GridContainers = () => {
         <h3 className="text-2xl font-bold text-headline-2">Teaching</h3>
         <a href="/teaching">
           <img
-            src="/petra-alderman-teaching.webp"
+            src="/teaching-petra-alderman.png"
             alt="teaching image"
             className="cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out mt-4"
           />
@@ -23,7 +23,7 @@ const GridContainers = () => {
         <a href="/podcasts">
           <img
             src="/podcast-placeholder.png"
-            alt="teaching image"
+            alt="podcast image"
             className="cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out mt-4"
           />
         </a>
@@ -32,8 +32,8 @@ const GridContainers = () => {
         <h3 className="text-2xl font-bold text-headline-2">Media</h3>
         <a href="/media">
           <img
-            src="/petra-alderman-france-24.webp"
-            alt="teaching image"
+            src="/media-petra-alderman.png"
+            alt="media image"
             className="cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out mt-4"
           />
         </a>
@@ -42,8 +42,8 @@ const GridContainers = () => {
         <h3 className="text-2xl font-bold text-headline-2">Events</h3>
         <a href="/events">
           <img
-            src="/petra-alderman-events.webp"
-            alt="teaching image"
+            src="/events-petra-alderman.png"
+            alt="events image"
             className="cursor-pointer shadow-md p-2 hover:shadow-sm delay-75 ease-in-out mt-4"
           />
         </a>
